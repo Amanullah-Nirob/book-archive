@@ -46,7 +46,7 @@ const displayBook=(data)=>{
 var DataArray=data.docs
 DataArray.forEach(book => {
 // total results hear
-document.getElementById(`totalResult`).innerHTML=`tatal search result : ${data.numFound}`
+document.getElementById(`totalResult`).innerHTML=`total search result : ${data.numFound}`
 // The books are on display here!
 var allBookRow=document.getElementById(`allBookRow`)
 var singleBook=document.createElement(`div`)

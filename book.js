@@ -71,4 +71,3 @@ allBookRow.appendChild(singleBook)
 document.getElementById(`spinner`).classList.add(`d-none`)
 
 }
-

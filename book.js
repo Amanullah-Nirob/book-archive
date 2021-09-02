@@ -41,7 +41,6 @@ fetch(`https://openlibrary.org/search.json?q=${inputValue}`)
 });
 }
 
-
 // get data start====================================================================================================================
 const displayBook=(data)=>{
 var DataArray=data.docs
